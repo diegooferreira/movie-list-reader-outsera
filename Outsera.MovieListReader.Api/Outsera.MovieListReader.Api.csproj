@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Outsera.MovieListReader.Borders\Outsera.MovieListReader.Borders.csproj" />
+    <ProjectReference Include="..\Outsera.MovieListReader.Repository\Outsera.MovieListReader.Repository.csproj" />
+    <ProjectReference Include="..\Outsera.MovieListReader.Services\Outsera.MovieListReader.Services.csproj" />
+    <ProjectReference Include="..\Outsera.MovieListReader.UseCases\Outsera.MovieListReader.UseCases.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\movielist.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

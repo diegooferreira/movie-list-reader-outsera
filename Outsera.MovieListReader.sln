@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.Api", "Outsera.MovieListReader.Api\Outsera.MovieListReader.Api.csproj", "{D030F0C6-8EC8-4F09-A2E0-C0FA15E3A3F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.Borders", "Outsera.MovieListReader.Borders\Outsera.MovieListReader.Borders.csproj", "{7DF38BF1-8718-40E5-9CFF-9EE933A35729}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.UseCases", "Outsera.MovieListReader.UseCases\Outsera.MovieListReader.UseCases.csproj", "{CFD5226D-5FDA-4DEB-9151-B9A3BD5E5022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.Services", "Outsera.MovieListReader.Services\Outsera.MovieListReader.Services.csproj", "{A0DF436E-54CD-49C2-AB7D-BCBA7FEADD2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.Repository", "Outsera.MovieListReader.Repository\Outsera.MovieListReader.Repository.csproj", "{E7A46B41-8899-4BC9-9A1F-81D664A69DA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Outsera.MovieListReader.Tests.Integration", "Outsera.MovieListReader.Tests.Integration\Outsera.MovieListReader.Tests.Integration.csproj", "{D1181685-97E8-4376-B23E-D2D390508BE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D030F0C6-8EC8-4F09-A2E0-C0FA15E3A3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D030F0C6-8EC8-4F09-A2E0-C0FA15E3A3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D030F0C6-8EC8-4F09-A2E0-C0FA15E3A3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D030F0C6-8EC8-4F09-A2E0-C0FA15E3A3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF38BF1-8718-40E5-9CFF-9EE933A35729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF38BF1-8718-40E5-9CFF-9EE933A35729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF38BF1-8718-40E5-9CFF-9EE933A35729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF38BF1-8718-40E5-9CFF-9EE933A35729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD5226D-5FDA-4DEB-9151-B9A3BD5E5022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD5226D-5FDA-4DEB-9151-B9A3BD5E5022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD5226D-5FDA-4DEB-9151-B9A3BD5E5022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD5226D-5FDA-4DEB-9151-B9A3BD5E5022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DF436E-54CD-49C2-AB7D-BCBA7FEADD2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DF436E-54CD-49C2-AB7D-BCBA7FEADD2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DF436E-54CD-49C2-AB7D-BCBA7FEADD2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DF436E-54CD-49C2-AB7D-BCBA7FEADD2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A46B41-8899-4BC9-9A1F-81D664A69DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A46B41-8899-4BC9-9A1F-81D664A69DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A46B41-8899-4BC9-9A1F-81D664A69DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A46B41-8899-4BC9-9A1F-81D664A69DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1181685-97E8-4376-B23E-D2D390508BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1181685-97E8-4376-B23E-D2D390508BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1181685-97E8-4376-B23E-D2D390508BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1181685-97E8-4376-B23E-D2D390508BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B189CDD-D38F-41FC-92E2-72A79594EA5C}
+	EndGlobalSection
+EndGlobal
